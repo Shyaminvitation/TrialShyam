@@ -822,7 +822,7 @@ h1, h2, h3, h4, h5, h6 {
 .scroll-indicator {
   font-size: 32px;
   color: #666;
-  animation: bounce 0.5s infinite, glow 1s infinite ease-in-out;
+  animation: bounce 0.5s infinite, glow 0.5s infinite ease-in-out;
   z-index: 100;
   opacity: 0.8;
   transition: opacity 0.3s ease;
@@ -867,10 +867,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .scroll-text {
-  font-size: 14px;
+  font-size: 20px;
   color: #666;
   margin: 0;  
-  opacity: 0.8;
+  opacity: 1;
   font-family: sans-serif;
-  animation: glow 2s infinite ease-in-out;
+  animation: glow 0.5s infinite ease-in-out;
 }
