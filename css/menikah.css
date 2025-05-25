@@ -820,7 +820,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Scroll Down Indicator */
 .scroll-indicator {
-  transform: translateX(-50%);
   font-size: 32px;
   color: #666;
   animation: bounce 0.5s infinite;
