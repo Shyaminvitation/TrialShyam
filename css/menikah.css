@@ -758,10 +758,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Photo Carousal */
 
 .carousel {
-  width: 100%;
-  max-width: 900px;        /* Set the fixed width of the frame */
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(-50vw + 50%);
   aspect-ratio: 3 / 2;          /* Maintains landscape ratio */
-  padding: 10px;           /* Padding around the images inside the frame */
+  padding: 5px;           /* Padding around the images inside the frame */
   box-sizing: border-box;  /* Ensure padding doesn't increase total size */
   margin: 0 auto;          /* Center the carousel horizontally */
   background-color: #f0f0f0; /* Optional: background around the image */
