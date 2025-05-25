@@ -762,7 +762,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100vw;
   position: relative; /* already set */
   left: 50%;          /* Add this */
-  margin-left: calc(-50vw + 50%);
+  margin-left: calc(-50vw);
   aspect-ratio: 3 / 2;
   padding: 5px;
   box-sizing: border-box;
