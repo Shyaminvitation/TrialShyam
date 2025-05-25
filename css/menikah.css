@@ -860,7 +860,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   z-index: 100;
 
-  display: flex;\
+  display: flex;
   flex-direction: column;  /* stack vertically */
   align-items: center;     /* center horizontally */
   gap: 0px; 
