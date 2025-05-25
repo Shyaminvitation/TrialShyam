@@ -839,7 +839,7 @@ function checkScroll()  {
   const windowHeight = window.innerHeight;
   const documentHeight = document.documentElement.scrollHeight;
 
-  console.log({scrollY, windowHeight, documentHeight, bottomReached: scrollY + windowHeight >= documentHeight - 10});
+  console.log({scrollY, windowHeight, documentHeight, bottomReached: scrollY + windowHeight >= documentHeight - 50});
 
   if (scrollY + windowHeight >= documentHeight - 10) {
     scrollIndicatorWrapper.classList.add("hide");
