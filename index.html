@@ -779,7 +779,8 @@
 
 
 <script>
-const scrollIndicator = document.getElementById("scroll-indicator-wrapper");
+const scrollIndicator = document.getElementById("scroll-indicator");
+  const scrollWrapper = document.getElementById("scroll-indicator-wrapper");
 
   function checkScroll() {
     const scrollY = window.scrollY;
@@ -788,15 +789,21 @@ const scrollIndicator = document.getElementById("scroll-indicator-wrapper");
 
     // Hide when bottom is reached
     if (scrollY + windowHeight >= documentHeight - 10) {
-      scrollIndicator.classList.add("hide");
+      scrollWrapper.classList.add("hide");
     } else {
-      scrollIndicator.classList.remove("hide");
+      scrollWrapper.classList.remove("hide");
     }
   }
 
   window.addEventListener("scroll", checkScroll);
   window.addEventListener("resize", checkScroll);
-  document.addEventListener("DOMContentLoaded", checkScroll);
+
+  // Call once DOM is ready
+  document.addEventListener("DOMContentLoaded", () => {
+    checkScroll();
+    // Extra delay to ensure layout is ready
+    setTimeout(checkScroll, 100);
+  });
 </script>
 
 
