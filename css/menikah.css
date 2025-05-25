@@ -764,7 +764,6 @@ h1, h2, h3, h4, h5, h6 {
   aspect-ratio: 3 / 2;          /* Maintains landscape ratio */
   padding: 5px;           /* Padding around the images inside the frame */
   box-sizing: border-box;  /* Ensure padding doesn't increase total size */
-  margin: 0 auto;          /* Center the carousel horizontally */
   background-color: #f0f0f0; /* Optional: background around the image */
   border-radius: 20px;     /* Optional: rounded corners */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: drop shadow */
