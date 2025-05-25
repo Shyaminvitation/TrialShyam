@@ -821,8 +821,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Scroll Down Indicator */
 .scroll-indicator {
   position: fixed;
-  bottom: 20px;
-  left: 50%;
+  bottom: 60px;
+  left: 70%;
   transform: translateX(-50%);
   font-size: 32px;
   color: #666;
