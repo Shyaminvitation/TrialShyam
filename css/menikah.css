@@ -848,7 +848,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .scroll-indicator-wrapper {
   position: fixed;
-  bottom: 60px;
+  bottom: 150px;
   left: 85%;
   transform: translateX(-50%);
   text-align: center;
