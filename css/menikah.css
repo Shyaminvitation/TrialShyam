@@ -759,7 +759,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .carousel {
   width: 100%;
-  max-width: 600px;        /* Set the fixed width of the frame */
+  max-width: 900px;        /* Set the fixed width of the frame */
   aspect-ratio: 3 / 2;          /* Maintains landscape ratio */
   padding: 10px;           /* Padding around the images inside the frame */
   box-sizing: border-box;  /* Ensure padding doesn't increase total size */
