@@ -845,3 +845,20 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   pointer-events: none;
 }
+
+.scroll-indicator-wrapper {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 100;
+}
+
+.scroll-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 4px;
+  opacity: 0.8;
+  font-family: sans-serif;
+}
