@@ -840,10 +840,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @keyframes glow {
   0%, 100% {
-    text-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 0px #ffffff;
   }
   50% {
-    text-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 1px #ffffff;
   }
 }
 
@@ -855,12 +855,12 @@ h1, h2, h3, h4, h5, h6 {
 .scroll-indicator-wrapper {
   position: fixed;
   bottom: 150px;
-  left: 70%;
+  left: 80%;
   transform: translateX(-50%);
   text-align: center;
   z-index: 100;
 
-  display: flex;
+  display: flex;\
   flex-direction: column;  /* stack vertically */
   align-items: center;     /* center horizontally */
   gap: 0px; 
