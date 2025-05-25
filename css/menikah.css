@@ -760,15 +760,16 @@ h1, h2, h3, h4, h5, h6 {
 .carousel {
   width: 100vw;
   max-width: 100vw;
+  position: relative; /* already set */
+  left: 50%;          /* Add this */
   margin-left: calc(-50vw + 50%);
-  aspect-ratio: 3 / 2;          /* Maintains landscape ratio */
-  padding: 5px;           /* Padding around the images inside the frame */
-  box-sizing: border-box;  /* Ensure padding doesn't increase total size */
-  background-color: #f0f0f0; /* Optional: background around the image */
-  border-radius: 20px;     /* Optional: rounded corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: drop shadow */
-  overflow: hidden;        /* Crop anything outside the frame */
-  position: relative;
+  aspect-ratio: 3 / 2;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .carousel-images {
