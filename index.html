@@ -771,15 +771,15 @@
 
 <!-- Bouncing Triangle Arrow Downward-->
 
-<div class="scroll-indicator-wrapper">
+<!-- Scroll Down Indicator -->
+<div class="scroll-indicator-wrapper" id="scroll-indicator-wrapper">
   <div class="scroll-text">Scroll down</div>
-  <div class="scroll-indicator" id="scroll-indicator">
-    &#9660;
-  </div>
+  <div class="scroll-indicator">&#9660;</div>
 </div>
 
+
 <script>
-  const scrollIndicator = document.getElementById("scroll-indicator");
+const scrollIndicator = document.getElementById("scroll-indicator-wrapper");
 
   function checkScroll() {
     const scrollY = window.scrollY;
