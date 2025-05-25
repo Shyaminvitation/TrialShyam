@@ -826,7 +826,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateX(-50%);
   font-size: 32px;
   color: #666;
-  animation: bounce 1.5s infinite;
+  animation: bounce 0.5s infinite;
   z-index: 100;
   opacity: 0.8;
   transition: opacity 0.3s ease;
